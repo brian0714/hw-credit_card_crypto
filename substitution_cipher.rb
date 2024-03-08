@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SubstitutionCipher
   module Caesar
     # Encrypts document using key
