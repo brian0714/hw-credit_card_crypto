@@ -4,7 +4,7 @@ require_relative './luhn_validator'
 require 'json'
 require 'digest'
 
-
+# Credit card domain entity
 class CreditCard
   # TODO: mixin the LuhnValidator using an 'include' statement
   include LuhnValidator
